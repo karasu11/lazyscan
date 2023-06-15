@@ -1,5 +1,6 @@
 # lazyscan
 Basic port scanner made in Python 3 for educational purposes.
+Based on the script in this tutorial: https://resources.infosecinstitute.com/topic/write-a-port-scanner-in-python/, but expanded with argument parsing and some other details, refactored, and updated to Python 3.
 Supports CLI arguments to specify target, individual ports to scan and/or a range of ports to scan, and verbosity.
 Only filters results as open / closed. 
 Do not scan any targets, locally or on the internet, without explicit permission.
