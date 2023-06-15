@@ -1,12 +1,3 @@
-# Very basic portscanner created for my own education.
-# Started from the tutorial here:
-# https://resources.infosecinstitute.com/topic/write-a-port-scanner-in-python/
-# Made some own tweaks and additions, most notably argument parsing with
-# argparse, refactoring, and updating code to fit Python 3.x.
-# Only filters by open and closed ports.
-# DO NOT LAUNCH SCANS AGAINST TARGETS WITHOUT EXPLICIT PERMISSION.
-
-
 import socket
 import subprocess
 import sys
